@@ -18,4 +18,4 @@ Re-write of the original MPTCP LSRR patch by Luca Bocassi as a path manager modu
 	# Number of flows, should be n+1 where n is the number of routes
 	sysctl -w net.mptcp.mptcp_ndiffports_lsrr_ports=3
 	# - separated list of , separated lists representing nodes to route via
-sysctl -w net.mptcp.mptcp_ndiffports_lsrr_gateways=192.168.1.1,10.0.1.1-192.168.1.1,10.0.2.1
+	sysctl -w net.mptcp.mptcp_ndiffports_lsrr_gateways=192.168.1.1,10.0.1.1-192.168.1.1,10.0.2.1
