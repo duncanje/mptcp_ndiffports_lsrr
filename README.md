@@ -3,6 +3,8 @@ A fork of the ndiffports path manager module from the Linux kernel implementatio
 
 IPv4 sub-flows may be separately loose source routed.
 
+Re-write of the original MPTCP LSRR patch by Luca Bocassi as a path manager module
+
 ### Prerequisites
 - Headers for a [patched MPTCP v0.88 kernel](https://github.com/bluca/mptcp/tree/mptcp_v0.88_binder_pm_duncan)
 - System(s) running the above patched kernel
